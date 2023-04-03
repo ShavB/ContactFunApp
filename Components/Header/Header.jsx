@@ -4,7 +4,7 @@ import './Header.css';
 
 function Header({ handleSaveDataComponent }) { 
   
-  const [changeBTN, setChangeBTN] = useState("Add");
+  const [changeBTN, setChangeBTN] = useState("Add data");
 
   const handleOpenSaveData = () => {
     setChangeBTN("table")
